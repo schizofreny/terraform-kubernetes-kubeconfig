@@ -1,5 +1,3 @@
-provider "kubernetes" {}
-
 resource "random_string" "unique_hash" {
   length  = 6
   special = false
